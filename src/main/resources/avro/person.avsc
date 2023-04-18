@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "namespace": "io.desofme.kafkaavro",
+  "name": "Person",
+  "version": "1",
+  "fields": [
+    {
+      "name":  "id",
+      "type": "long"
+    },{
+      "name":  "name",
+      "type": "string"
+    },{
+      "name":  "isStudent",
+      "type": "boolean"
+    }
+  ]
+}
